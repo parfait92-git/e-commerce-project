@@ -1,0 +1,17 @@
+$gray: gray;
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: $gray;
+}
+.left {
+  height: 30px;
+  width: 100px;
+  background-color: var(--primary);
+}
+
+.right {
+  height: 30px;
+  width: 100px;
+  background-color: var(--secondary);
+}
